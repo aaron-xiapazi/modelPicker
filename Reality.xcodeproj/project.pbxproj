@@ -3,18 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		202220B625283DBD00E2E5A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202220B525283DBD00E2E5A8 /* AppDelegate.swift */; };
 		202220B825283DBD00E2E5A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202220B725283DBD00E2E5A8 /* ContentView.swift */; };
-		202220BA25283DBD00E2E5A8 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 202220B925283DBD00E2E5A8 /* Experience.rcproject */; };
 		202220BC25283DBF00E2E5A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 202220BB25283DBF00E2E5A8 /* Assets.xcassets */; };
 		202220BF25283DBF00E2E5A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 202220BE25283DBF00E2E5A8 /* Preview Assets.xcassets */; };
 		202220C225283DBF00E2E5A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 202220C025283DBF00E2E5A8 /* LaunchScreen.storyboard */; };
 		202220CD25283DBF00E2E5A8 /* RealityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202220CC25283DBF00E2E5A8 /* RealityTests.swift */; };
 		202220D825283DC000E2E5A8 /* RealityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202220D725283DC000E2E5A8 /* RealityUITests.swift */; };
+		202220F02528430400E2E5A8 /* toy_biplane.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202220EC2528430300E2E5A8 /* toy_biplane.usdz */; };
+		202220F12528430400E2E5A8 /* toy_robot_vintage.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202220ED2528430400E2E5A8 /* toy_robot_vintage.usdz */; };
+		202220F22528430400E2E5A8 /* fender_stratocaster.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202220EE2528430400E2E5A8 /* fender_stratocaster.usdz */; };
+		202220F32528430400E2E5A8 /* teapot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202220EF2528430400E2E5A8 /* teapot.usdz */; };
+		2091429E252866BE001BD0BE /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2091429D252866BE001BD0BE /* Model.swift */; };
+		209142A425287503001BD0BE /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = 209142A325287503001BD0BE /* FocusEntity */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +43,6 @@
 		202220B225283DBD00E2E5A8 /* Reality.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reality.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		202220B525283DBD00E2E5A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		202220B725283DBD00E2E5A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		202220B925283DBD00E2E5A8 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		202220BB25283DBF00E2E5A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		202220BE25283DBF00E2E5A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		202220C125283DBF00E2E5A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,11 @@
 		202220D325283DC000E2E5A8 /* RealityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		202220D725283DC000E2E5A8 /* RealityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityUITests.swift; sourceTree = "<group>"; };
 		202220D925283DC000E2E5A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		202220EC2528430300E2E5A8 /* toy_biplane.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_biplane.usdz; sourceTree = "<group>"; };
+		202220ED2528430400E2E5A8 /* toy_robot_vintage.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_robot_vintage.usdz; sourceTree = "<group>"; };
+		202220EE2528430400E2E5A8 /* fender_stratocaster.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = fender_stratocaster.usdz; sourceTree = "<group>"; };
+		202220EF2528430400E2E5A8 /* teapot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = teapot.usdz; sourceTree = "<group>"; };
+		2091429D252866BE001BD0BE /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				209142A425287503001BD0BE /* FocusEntity in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,9 +109,10 @@
 		202220B425283DBD00E2E5A8 /* Reality */ = {
 			isa = PBXGroup;
 			children = (
+				202220EB2528429A00E2E5A8 /* Models */,
 				202220B525283DBD00E2E5A8 /* AppDelegate.swift */,
 				202220B725283DBD00E2E5A8 /* ContentView.swift */,
-				202220B925283DBD00E2E5A8 /* Experience.rcproject */,
+				2091429D252866BE001BD0BE /* Model.swift */,
 				202220BB25283DBF00E2E5A8 /* Assets.xcassets */,
 				202220C025283DBF00E2E5A8 /* LaunchScreen.storyboard */,
 				202220C325283DBF00E2E5A8 /* Info.plist */,
@@ -136,6 +147,17 @@
 			path = RealityUITests;
 			sourceTree = "<group>";
 		};
+		202220EB2528429A00E2E5A8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				202220EE2528430400E2E5A8 /* fender_stratocaster.usdz */,
+				202220EF2528430400E2E5A8 /* teapot.usdz */,
+				202220EC2528430300E2E5A8 /* toy_biplane.usdz */,
+				202220ED2528430400E2E5A8 /* toy_robot_vintage.usdz */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,6 +174,9 @@
 			dependencies = (
 			);
 			name = Reality;
+			packageProductDependencies = (
+				209142A325287503001BD0BE /* FocusEntity */,
+			);
 			productName = Reality;
 			productReference = 202220B225283DBD00E2E5A8 /* Reality.app */;
 			productType = "com.apple.product-type.application";
@@ -223,6 +248,9 @@
 				Base,
 			);
 			mainGroup = 202220A925283DBD00E2E5A8;
+			packageReferences = (
+				209142A225287503001BD0BE /* XCRemoteSwiftPackageReference "FocusEntity" */,
+			);
 			productRefGroup = 202220B325283DBD00E2E5A8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -240,7 +268,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				202220C225283DBF00E2E5A8 /* LaunchScreen.storyboard in Resources */,
+				202220F12528430400E2E5A8 /* toy_robot_vintage.usdz in Resources */,
+				202220F22528430400E2E5A8 /* fender_stratocaster.usdz in Resources */,
+				202220F32528430400E2E5A8 /* teapot.usdz in Resources */,
 				202220BF25283DBF00E2E5A8 /* Preview Assets.xcassets in Resources */,
+				202220F02528430400E2E5A8 /* toy_biplane.usdz in Resources */,
 				202220BC25283DBF00E2E5A8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,9 +298,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2091429E252866BE001BD0BE /* Model.swift in Sources */,
 				202220B825283DBD00E2E5A8 /* ContentView.swift in Sources */,
 				202220B625283DBD00E2E5A8 /* AppDelegate.swift in Sources */,
-				202220BA25283DBD00E2E5A8 /* Experience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,6 +629,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		209142A225287503001BD0BE /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		209142A325287503001BD0BE /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 209142A225287503001BD0BE /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 202220AA25283DBD00E2E5A8 /* Project object */;
 }
